@@ -1,7 +1,5 @@
 ﻿
 
-
-
 public class CheckingAccount {
   public string owner;
   public int agency;

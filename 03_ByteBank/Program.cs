@@ -19,7 +19,9 @@ namespace _03_ByteBank {
       accountJohn.account = 863452;
       accountJohn.balance = 100;
 
-      Console.WriteLine(accountJohnRambo == accountJohn);
+      accountJohn.balance -= 100;
+
+      Console.WriteLine(accountJohn.balance);
 
       Console.ReadLine();
     }
